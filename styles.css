@@ -33,7 +33,7 @@ body {
   max-height: 200px;
 }
 
-/* .uil{
+div {
   font-size: 30px;
   display: flex;
   justify-content: center;
@@ -43,7 +43,7 @@ body {
   top: -15px;
   z-index: 0;
   background-color: yellow;
-} */
+}
 
 button {
   justify-content: center;
@@ -64,7 +64,8 @@ h2 {
 
 .navigation__menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   right: 0;
   left: 0;
+  position: fixed;
 }
