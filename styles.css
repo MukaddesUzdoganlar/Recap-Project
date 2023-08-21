@@ -1,0 +1,70 @@
+*,
+*::before *::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0 45px 0;
+  font-family: system-ui;
+}
+
+.header {
+  background: grey;
+  color: white;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  text-align: center;
+  text-decoration: underline yellow;
+}
+
+.card {
+  margin: 20px 10%;
+  border: 5px solid #888888;
+  padding: 2% 15%;
+  border-radius: 20px;
+  position: relative;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* .uil{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  top: -15px;
+  z-index: 0;
+  background-color: yellow;
+} */
+
+button {
+  justify-content: center;
+  position: relative;
+  margin: 10px;
+  margin-left: 50px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.navigation__link {
+  background-color: grey;
+  color: white;
+  padding: 5px 14px;
+}
+
+.navigation__menu {
+  display: flex;
+  justify-content: space-between;
+  right: 0;
+  left: 0;
+}
